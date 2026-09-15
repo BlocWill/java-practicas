@@ -81,7 +81,7 @@ public class ClaseOperadores {
         System.out.println(-b);
         System.out.println(++b);
         System.out.println(b++);
-        System.out.println(b); // aqui el resultado es 5 la b que valia cuatro  se auto incremento despues de imprimirse
+        System.out.println(b); // aqui el resultado es 5 la b que valia cuatro se auto incremento despues de imprimirse
         System.out.println(--b);
         System.out.println(b--);
         System.out.println(b);
