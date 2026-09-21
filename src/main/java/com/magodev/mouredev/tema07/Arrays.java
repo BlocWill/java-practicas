@@ -2,12 +2,13 @@ package com.magodev.mouredev.tema07;
 
 public class Arrays {
     public static void main(String[] args) {
+        // Los Arrays se crean con datos del mismo tipo y se usa o buscan por el indice, tambien es ordenado
 
         // Declaracion y creacion
-        int[] numbers = new int[3];
+        int[] numbers = new int[3];  // Notacion 1 antigua aun en uso
         System.out.println(numbers);
 
-        String[] names = {"Wilson", "Gonzalez", "magodev"};
+        String[] names = {"Wilson", "Gonzalez", "magodev"}; // Notacion nueva, solo datos del mismo tipo
         System.out.println(names);
 
         // Acceso

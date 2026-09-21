@@ -50,7 +50,7 @@ public class Maps {
         names.replace("Gonzalez", "magodev@gmail.com"); // Reemplaza el valor si existe
         System.out.println(names);
 
-        names.putIfAbsent("Gonzalez", "magodev@gmail.com"); // Solo loañade si NO existe
+        names.putIfAbsent("Gonzalez", "magodev@gmail.com"); // Solo lo añade si NO existe
         System.out.println(names);
 
         // Otras operaciones

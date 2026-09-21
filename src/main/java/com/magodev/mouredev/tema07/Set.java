@@ -13,6 +13,7 @@ public class Set {
         System.out.println(names.size());
 
         // Añadir elementos
+        // El set es una estructura desordenada
         names.add("Wilson");
         names.add("Gonzalez");
         names.add("magodev");
@@ -32,7 +33,7 @@ public class Set {
         System.out.println(names.contains("Wilson"));
         System.out.println(names.contains("gonzalez@gmail.com"));
 
-        // Caracteristica del set NO acepta repetidos
+        // Caracteristica del set NO acepta repetidos o duplicados
         System.out.println(names);
         names.add("Wilson");
         names.add("Wilson");
