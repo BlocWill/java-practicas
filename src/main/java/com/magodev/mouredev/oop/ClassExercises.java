@@ -9,5 +9,9 @@ public class ClassExercises {
 
         System.out.println("Titulo: " + book.titulo);
         System.out.println("Autor: " + book.autor);
+
+        var dog = new Dog();
+
+        dog.bark();
     }
 }
