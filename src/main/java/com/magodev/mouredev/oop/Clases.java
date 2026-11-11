@@ -5,8 +5,6 @@ public class Clases {
 
         var persona = new Persona("Wilson", 45);
 
-        persona.nombre = "Wilson";
-        persona.edad = 45;
 
         persona.diHola();
 

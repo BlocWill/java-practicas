@@ -2,7 +2,7 @@ package com.magodev.mouredev.oop;
 
 public class ClassExercises {
     public static void main(String[] args) {
-        var book = new Book();
+        var book = new Book("El padrino", "Mario Puzzo");
 
         book.titulo = "El padrino";
         book.autor = "Mario Puzzo";
