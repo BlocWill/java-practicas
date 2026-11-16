@@ -13,5 +13,10 @@ public class ClassExercises {
         var dog = new Dog();
 
         dog.bark();
+
+        // Class Car crea autos y muestra sus datos con el method showData()
+
+        var auto1 = new Car("Audi", "A8");
+        auto1.showData();
     }
 }
