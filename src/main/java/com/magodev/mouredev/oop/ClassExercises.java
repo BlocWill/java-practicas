@@ -22,7 +22,7 @@ public class ClassExercises {
         var auto1 = new Car("Audi", "A8");
         auto1.showData();
 
-        // Clase student con atributo score y metodo que muestra si aprobo
+        // Clase Student con atributo score y metodo que muestra si aprobo
 
         var student1 = new Student(59);
         student1.verificarAprobacion();
@@ -35,12 +35,22 @@ public class ClassExercises {
         var cuenta1 = new BankAccount(457);
         cuenta1.deposit(589);
 
-        // Clase rectangle con metodos para calcular el area y el perimetro
+        // Clase Rectangle con metodos para calcular el area y el perimetro
         var rectangulo = new Rectangle(6.0, 4.0);
 
         // Imprimimos
         System.out.println("Area del rectangulo: " + rectangulo.calculateArea());
         System.out.println("Perimetro del rectangulo: " + rectangulo.calculatePerimeter());
+
+        // Clase worker que reciba nombre y salario y un metodo para mostrar su salario
+        var worker1 = new Worker("Wilson Gonzalez", 1250);
+        worker1.showSalary();
+
+        var worker2 = new Worker("Beatriz Adriana", 1110);
+        worker2.showSalary();
+
+        var worker3 = new Worker("Bartolomeo Noguera", 2500);
+        worker3.showSalary();
 
 
 

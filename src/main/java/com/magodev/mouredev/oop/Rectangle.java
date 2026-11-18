@@ -1,4 +1,4 @@
-// Crear una clase rectangle con metodos para calcular el area y el perimetro
+// Crear una clase Rectangle con metodos para calcular el área y el perímetro
 
 package com.magodev.mouredev.oop;
 
@@ -9,17 +9,17 @@ public class Rectangle {
     double height;
 
     // constructor
-    public Rectangle(double width, double heigth) {
+    public Rectangle(double width, double height) {
         this.width = width;
-        this.height = heigth;
+        this.height = height;
     }
 
-    // Metodo para calcular area
+    // Método para calcular área
     public double calculateArea() {
         return width * height;
     }
 
-    // Metodo para calcular perimetro
+    // Método para calcular perimetro
     public double calculatePerimeter() {
         return 2 * (width + height);
     }
