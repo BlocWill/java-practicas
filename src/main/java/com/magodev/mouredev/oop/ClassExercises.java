@@ -26,5 +26,11 @@ public class ClassExercises {
 
         var student2 = new Student(65);
         student2.verificarAprobacion();
+
+        // Clase BankAccount atributo balance, metodo deposito que suma el saldo
+
+        var cuenta1 = new BankAccount(457);
+        cuenta1.deposit(589);
+
     }
 }
