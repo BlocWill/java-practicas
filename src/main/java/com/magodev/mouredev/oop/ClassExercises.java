@@ -18,5 +18,13 @@ public class ClassExercises {
 
         var auto1 = new Car("Audi", "A8");
         auto1.showData();
+
+        // clase student con atributo score y metodo que muestra si aprobo
+
+        var student1 = new Student(59);
+        student1.verificarAprobacion();
+
+        var student2 = new Student(65);
+        student2.verificarAprobacion();
     }
 }
